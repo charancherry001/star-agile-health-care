@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: healthcare
-          image: vikuldocker/insurancedemo:1
+          image: charanboddu/healthcaredemo:1
           ports:
             - containerPort: 8082
           env:
